@@ -1,0 +1,321 @@
+
+/*                                                     GENERAL                     */
+
+.navbar-nav a{
+  color: rgb(254,238,214) !important;
+}
+.dropdown-menu a{
+  color: rgb(254,238,214) !important;
+}
+.dropdown-menu a:hover{
+  background-color: rgb(32,32,32) !important;
+}
+footer{
+  line-height: 15px;
+  font-family: "Montserrat",sans-serif!important;
+  position: relative;
+  display: block;
+}
+
+.navigation{
+  text-decoration: none;
+  color: rgb(51,0,0);
+}
+.navigation:hover{
+  text-decoration: none;
+  color: black;
+}
+.fa{
+  color: black !important
+}
+
+a{
+	text-decoration: none !important;
+}
+
+hr{
+  border-top: 1px solid black !important;
+}
+body{
+	overflow-x: hidden;
+	background-color:rgb(254,238,214); 
+	text-decoration: none; 
+	position: relative;
+  
+  font-family: verdana !important;  
+}
+ul.nav{
+  padding: 20px;
+  font-size: 12pt;
+}
+
+
+/*                                                           	PAUL-HOME                                              */
+
+#logo{
+height: 100px;
+width: 100px;
+margin-left: 20%;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+
+
+#paulgallery{
+  margin-right: 15%; 
+}
+hr.pauldesc{
+  border-top: 1px solid black;
+  margin-right: 15%;
+}
+.aboutphoto{
+  height: 200px !important;
+}
+#paulabout{
+  margin-right: 15%; 
+  color: black;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.paulimg {
+	box-shadow: 5px 5px 20px #888888;
+	border-style: double;
+	border-width: 7px;
+	height: 300px;
+	width: 400px;
+ }
+
+/*                                                             PAUL-MENU                                                */
+
+
+div{
+	display: block;
+}
+input.countbutton{
+
+	cursor: pointer;
+}
+
+.product{
+	display: inline-block;
+	background-color: white;
+  	width: 250px;
+  	border-style: double;
+ 	border: 5px solid #efeeee;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.add_basket {
+    
+    border: 3px solid #000;
+    display: block;
+    height: 50px;
+    margin: 10px 0;
+    margin-right: 0;
+    font: 18px/44px 'Source Sans Pro';
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.add_basket:hover{
+	text-decoration: none;
+	color: black;
+}
+.tablinks{
+	color: rgb(254,238,214);
+	
+}
+
+div.tab {
+    overflow: hidden;
+    border:  solid rgb(254,238,214);
+    background-color: black
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: rgb(64,64,64);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+#orderheader {
+	position: relative;
+	display: block;
+    top: 150px;	 
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+
+}
+
+.containermycss {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.containermycss:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.text {
+  white-space: nowrap; 
+  font-size: 20px;
+  color: rgb(254,238,214);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.img-res {
+	display: block;
+    min-width: 100%;
+    height: 150px;
+    width: 100px;
+
+}
+.description{
+	text-align: center;
+}
+.mealname{
+	font-style: italic;
+	font-size: 15pt;
+}
+
+.price{
+	font-size: 25pt;
+}
+
+
+
+#count{
+	border-style: none;
+}
+
+#minus,#plus{
+  background-color:transparent;
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+  border: 1px solid black;
+  
+    
+}
+
+
+
+/*                                                                PAUL-CONTACT                                                          */
+ div#contact_info{
+
+	position: relative;
+	display: block;
+  top: 170px;	
+  margin-left: 8%;
+  margin-right: 5%; 
+	color: black;
+	letter-spacing: 1px;
+	line-height: 20px;
+
+ }
+
+#paulmap{
+	width: 650px;
+	height: 350px; 	
+}
+
+
+#feedbackbutton{
+	background-color: black;
+	color: rgb(254,238,214);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.orderoption{
+  height: 48px;
+}
+#orderbutton{
+    background-color: black;
+    color: rgb(254,238,214);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.orderform{
+  margin-left: 23%;
+}
+.orderedimage{
+    display: block;
+    height: 200px;
+    width:  250px;
+}
+
+.hrmargin{
+  background-color: black;
+  color: black;
+  height: 1px;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+img.details{
+  width: 33%;
+  margin: 15px auto;
+}
+
